@@ -8,7 +8,7 @@
 // })
 
 // use for loop!!!! 
-$(".delete").eq(0).click(function () {
+$(".delete").eq(0).click(function (){
   $("li").eq(0).hide();
   $("label").text("Hide all topic").css("color","red")
         .fadeOut(200)
