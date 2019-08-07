@@ -10,6 +10,8 @@
 // use for loop!!!! 
 $(".delete").eq(0).click(function (){
   $("li").eq(0).hide();
+  var music2= new Audio("audio/Cave.mp3");
+  music2.play();
   $("label").text("Hide all topics").css("color","red")
         .fadeOut(200)
         .fadeIn(200)
@@ -17,6 +19,7 @@ $(".delete").eq(0).click(function (){
         .fadeIn(200)
         .fadeOut(200)
         .fadeIn(200);
+      
         
 })
 $("#hide").eq(0).click(function () {
@@ -26,6 +29,8 @@ $("#hide").eq(0).click(function () {
 
 $(".delete").eq(1).click(function(){
   $("li").eq(1).hide();
+  var music2= new Audio( "audio/Cave.mp3");
+        music2.play();
   $("label").text("Hide all topics").css("color","red")
         .fadeOut(200)
         .fadeIn(200)
@@ -40,6 +45,8 @@ $("#hide").eq(1).click(function () {
 
 $(".delete").eq(2).click(function () {
   $("li").eq(2).hide();
+  var music2= new Audio( "audio/Cave.mp3");
+  music2.play();
   $("label").text("Hide all topics").css("color","red")
         .fadeOut(200)
         .fadeIn(200)
@@ -55,6 +62,8 @@ $("#hide").eq(2).click(function () {
 
 $(".delete").eq(3).click(function () {
   $("li").eq(3).hide();
+  var music2= new Audio( "audio/Cave.mp3");
+  music2.play();
   $("label").text("Hide all topics").css("color","red")
         .fadeOut(200)
         .fadeIn(200)
@@ -83,6 +92,8 @@ $("form").submit(function (e) {
     $("ul").append(spans);
     $(".delete").eq(4).click(function () {
       $("li").eq(4).hide();
+      var music2= new Audio( "audio/Cave.mp3");
+      music2.play();
       $("label").text("Hide all topics").css("color","red")
         .fadeOut(200)
         .fadeIn(200)
@@ -97,6 +108,8 @@ $("form").submit(function (e) {
     });
     $(".delete").eq(5).click(function () {
       $("li").eq(5).hide();
+      var music2= new Audio( "audio/Cave.mp3");
+      music2.play();
       $("label").text("Hide all topics").css("color","red")
       .fadeOut(200)
       .fadeIn(200)
@@ -120,8 +133,8 @@ $("form").submit(function (e) {
 $(function () {
   $("#hide").click(function () {
     if ($(this).is(":checked")) {
-      var muzik2= new Audio( "audio/Cave.mp3");
-        muzik2.play();
+      var music2= new Audio( "audio/Cave.mp3");
+        music2.play();
       $("ul").hide();
       $("label")
         .text("Show all topics")
@@ -134,8 +147,8 @@ $(function () {
         .fadeOut(200)
         .fadeIn(200);
     } else {
-      var muzik1= new Audio( "audio/News.mp3");
-        muzik1.play();
+      var music1= new Audio( "audio/News.mp3");
+        music1.play();
       $("label")
         .text("Hide all topics")
         .css("color", "#444");
