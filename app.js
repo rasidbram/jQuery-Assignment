@@ -10,7 +10,7 @@
 // use for loop!!!! 
 $(".delete").eq(0).click(function (){
   $("li").eq(0).hide();
-  $("label").text("Hide all topic").css("color","red")
+  $("label").text("Hide all topics").css("color","red")
         .fadeOut(200)
         .fadeIn(200)
         .fadeOut(200)
@@ -26,7 +26,7 @@ $("#hide").eq(0).click(function () {
 
 $(".delete").eq(1).click(function(){
   $("li").eq(1).hide();
-  $("label").text("Hide all topic").css("color","red")
+  $("label").text("Hide all topics").css("color","red")
         .fadeOut(200)
         .fadeIn(200)
         .fadeOut(200)
@@ -40,7 +40,7 @@ $("#hide").eq(1).click(function () {
 
 $(".delete").eq(2).click(function () {
   $("li").eq(2).hide();
-  $("label").text("Hide all topic").css("color","red")
+  $("label").text("Hide all topics").css("color","red")
         .fadeOut(200)
         .fadeIn(200)
         .fadeOut(200)
@@ -55,7 +55,7 @@ $("#hide").eq(2).click(function () {
 
 $(".delete").eq(3).click(function () {
   $("li").eq(3).hide();
-  $("label").text("Hide all topic").css("color","red")
+  $("label").text("Hide all topics").css("color","red")
         .fadeOut(200)
         .fadeIn(200)
         .fadeOut(200)
