@@ -1,11 +1,3 @@
-// $(function () {
-//     for (var i = 0; i < 4; i++) {
-//         $(".delete").eq(i).click(function () {
-//             $("li").eq(i).hide();
-//         });
-
-//     }
-// })
 
 // use for loop!!!! 
 $(".delete").eq(0).click(function (){
